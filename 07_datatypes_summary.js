@@ -36,3 +36,29 @@ let myobj = {
  }
 
  console.log(typeof (MyFunction));
+
+ // +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ //Memory
+
+ // 2 types : stack (primitive), Heap (Non-primitive)
+
+  let myYoutubename = "hrfyhehhrthgr"
+ 
+  let anothername = myYoutubename
+  anothername = "chai_ya_coffee"
+
+  console.log(myYoutubename);
+  console.log(anothername);
+
+  let user1= {
+    email: "user@gmail.com",
+    upi: "user@ybl"
+  }
+
+let  user2 = user1
+
+user2.email = "Mayank@google.com"
+
+console.log(user1.email)
+console.log(user2.email)
