@@ -4,17 +4,25 @@ const score = 400
 const balance = new Number(100)
 // console.log(balance);
 
-// console.log(balance.toString().length);
-// console.log(balance.valueOf());
-// console.log(balance.toPrecision(3));
-// console.log(balance.toFixed(1));
+// console.log(balance.toString().length); //Specifies a radix for converting numeric values to strings. This value is only used for numbers.
+ // Returns a string representation of an object.
+
+// console.log(balance.valueOf()); //Returns the primitive value of the specified object.
+
+// console.log(balance.toPrecision(3)); // Number of significant digits. Must be in the range 1 - 21, inclusive.
+// Returns a string containing a number represented either in exponential or fixed-point notation with a specified number of digits.
+
+// console.log(balance.toFixed(1)); //Number of digits after the decimal point. Must be in the range 0 - 20, inclusive.
+ // Returns a string representing a number in fixed-point notation.
 
 const otherNumber = 123.8967
 
-// console.log(otherNumber.toPrecision(5));
+// console.log(otherNumber.toPrecision(5)); // Returns a string containing a number represented either in exponential or fixed-point notation with a specified number of digits.
 
 const hundred = 1000000
 // console.log(hundred.toLocaleString('en-In'));
+
+console.log(otherNumber.toExponential(3));
 
 //************************ Maths ************************************ 
 
