@@ -20,3 +20,7 @@ const str = "cat is a best animal!"
 
 // console.log(str.endsWith("animal!"));
 // console.log(str.endsWith("animal")) //Returns true if the sequence of elements of searchString converted to a String is the same as the corresponding elements of this object (converted to a String) starting at endPosition – length(this). Otherwise returns false.
+
+const num = 100
+console.log(num.toFixed());
+console.log(str.includes('s'));
