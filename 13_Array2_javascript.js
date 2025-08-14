@@ -19,13 +19,19 @@ const real_another_array = another_array.flat(Infinity)
  // Returns a new array with all sub-array elements concatenated into it recursively up to the specified depth.
 console.log(real_another_array);
 
+  // important 
 
- console.log(Array.isArray("Mayank"));
- console.log(Array.from("Mayank"));
+ console.log(Array.isArray("Mayank")); //The Array.isArray() static method determines whether the passed value is an Array.
+  // reture value true if value is an Array; otherwise, false. false is always returned if value is a TypedArray instance.
+
+ console.log(Array.from("Mayank")); //The Array.from() static method creates a new, shallow-copied Array instance from an iterable or array-like object.
+ // return A new Array instance.
+
   console.log(Array.from({name: "Mayank"})); // interesting case
 
   let score1 = 100
   let score2 = 200
   let score3 = 300
 
-  console.log(Array.of(score1, score2, score3));
+  console.log(Array.of(score1, score2, score3)); //The Array.of() static method creates a new Array instance from a variable number of arguments, regardless of number or type of the arguments.
+   // return A new Array instance.
