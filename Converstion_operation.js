@@ -1,13 +1,13 @@
 let score = "7abc";
 
-// console.log(typeof score);
-// console.log(typeof {score});
-// console.log(typeof (score));
+//  console.log(typeof score); //string
+//  console.log(typeof {score}); //object
+//  console.log(typeof (score)); //string
 
 let valueInNumber = Number(score);
-// console.log(typeof valueInNumber);
+// console.log(typeof valueInNumber); //Number
 
-// console.log(valueInNumber);
+// console.log(valueInNumber); // NaN
 
 // "33" => 33
 // "33abc" => NaN
@@ -16,7 +16,7 @@ let valueInNumber = Number(score);
 let isLoggedIn = "Mayank"
 
 let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+// console.log(booleanIsLoggedIn); //true
 
 // 1 => true; 0 => false
 // "" => false
@@ -24,5 +24,5 @@ console.log(booleanIsLoggedIn);
 
 let someNumber = 33
  let stringNumber = String(someNumber)
- console.log(stringNumber);
- console.log(typeof stringNumber)
+ console.log(stringNumber); //33
+ console.log(typeof stringNumber) // string
