@@ -46,16 +46,44 @@
 ]
 
  user[1].email
- console.log(tinderUser);
+// console.log(tinderUser);
 
- console.log(Object.keys(tinderUser));  // Object that contains the properties and methods. This can be an object that you created or an existing Document Object Model (DOM) object.
+// console.log(Object.keys(tinderUser));  // Object that contains the properties and methods. This can be an object that you created or an existing Document Object Model (DOM) object.
 // Returns the names of the enumerable string properties and methods of an object.
 
- console.log(Object.values(tinderUser)); // Object that contains the properties and methods. This can be an object that you created or an existing Document Object Model (DOM) object.
+// console.log(Object.values(tinderUser)); // Object that contains the properties and methods. This can be an object that you created or an existing Document Object Model (DOM) object.
  //Returns an array of values of the enumerable own properties of an object.
 
- console.log(Object.entries(tinderUser)); // Object that contains the properties and methods. This can be an object that you created or an existing Document Object Model (DOM) object.
+// console.log(Object.entries(tinderUser)); // Object that contains the properties and methods. This can be an object that you created or an existing Document Object Model (DOM) object.
  // Returns an array of key/values of the enumerable own properties of an object.
 
- console.log(tinderUser.hasOwnProperty('name')); // A property name.
+// console.log(tinderUser.hasOwnProperty('name')); // A property name.
  // Determines whether an object has a property with the specified name.
+
+
+  const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Mayank"
+  }
+
+   // course.courseInstructor
+
+   const {courseInstructor: instructor} = course  // Object De_structure
+
+  // console.log(courseInstructor);
+   console.log(instructor);
+
+
+   // API
+  // {
+  //   "name": "Mayank",
+  //   "coursename": "Js in hindi",
+  //   "price": "free"
+  // }
+
+  [
+    {},
+    {},
+    {}
+  ]
